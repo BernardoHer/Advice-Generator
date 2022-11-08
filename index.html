@@ -11,16 +11,18 @@
 <body>
   <div class="card">
     <div class="card-container">
-    <h1> Advice #<span id="advice-span"></span></h1>
+      <h1> Advice #<span id="advice-number"></span></h1>
       <p>" <span id="advice-text"></span>" </p>
-      <img class='separator' src="/images/pattern-divider-mobile.svg">
-      <button id="generate">
+      <div class="divider-mobile">
+        <img src="/images/pattern-divider-mobile.svg">
+      </div>
+      <div class="divider-desktop">
+        <img src="/images/pattern-divider-desktop.svg">
+      </div>
+      <button id="generator-btn">
         <img src="/images/icon-dice.svg" alt="" class="dice">
       </button>
     </div>
-  </div>
-  <div class="attribution">
-    Coded by <a href="#">Bernardo Hernandez</a>.
   </div>
   <script src="/app.js"></script>
 </body>
